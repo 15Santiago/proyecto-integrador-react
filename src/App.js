@@ -12,22 +12,21 @@ import { AfricaPage } from './AfricaPage';
 function App() {
   const [countries, setCountries] = useFetchCountries("https://restcountries.com/v3.1/all");
   return (
-    <React.Fragment>
-      <HashRouter>
-        <appContext.Provider value={{countries, setCountries}}>
-
-          <Routes>
-            <Route path='/' element={<HomePage/>}/>
-            <Route path='/Americas' element={<AmericasPage/>}/>
-            <Route path='/Europe' element={<EuropePage/>}/>
-            <Route path='/Asia' element={<AsiaPage/>}/>
-            <Route path='/Oceania' element={<OceaniaPage/>}/>
-            <Route path='/Africa' element={<AfricaPage/>}/>
-          </Routes>
-        
-        </appContext.Provider>
-      </HashRouter>
-    </React.Fragment>
+    
+    <HashRouter>
+      <appContext.Provider value={{countries, setCountries}}>
+        <Routes>
+          <Route path='/' element={<HomePage/>}/>
+          <Route path='/Americas' element={<AmericasPage/>}/>
+          <Route path='/Europe' element={<EuropePage/>}/>
+          <Route path='/Asia' element={<AsiaPage/>}/>
+          <Route path='/Oceania' element={<OceaniaPage/>}/>
+          <Route path='/Africa' element={<AfricaPage/>}/>
+        </Routes>
+      
+      </appContext.Provider>
+    </HashRouter>
+    
   );
 }
 
