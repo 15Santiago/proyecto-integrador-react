@@ -1,0 +1,71 @@
+.card-container {
+    width: 100%;
+    margin: 0 auto;
+    height: 70px;
+    padding: 5px;
+    border: 2px solid var(--Verde-oscuro);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.card-container:hover {
+    background: var(--Verde-claro);
+    color: white;
+}
+
+.country-flag {
+    width: 100px;
+    height: 60px;
+    border-radius: 1rem;
+}
+
+.principal-info-container {
+    text-align: center;
+}
+
+.name-country {
+    font-size: 1.5rem;
+}
+
+.secondary-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 740px) {
+    .card-container {
+        height: 100px;
+    }
+
+    .country-flag {
+        height: 90px;
+        width: 150px;
+    }
+    
+    .name-country {
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+
+    .name-capital {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .card-container {
+        width: 100%;
+        height: auto;
+        gap: 10px;
+    } 
+    
+    .name-country {
+        margin-top: 1%;
+        font-size: 3rem;
+    }
+}

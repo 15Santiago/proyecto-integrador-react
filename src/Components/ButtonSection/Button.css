@@ -1,0 +1,72 @@
+.button {
+    width: 90%;
+    margin: 0 auto;
+    height: 70px;
+    padding: 5px;
+    border: 2px solid var(--Verde-oscuro);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background: var(--Verde-claro);
+    color: white;
+}
+
+.image-button {
+    border-radius: 1rem;
+}
+
+.button-title {
+    font-size: 2.5rem;
+    margin-top: 12px;
+}
+
+@media (min-width: 740px) {
+    .button {
+        height: 100px;
+    }
+    
+    .button-title {
+        font-size: 3.5rem;
+        margin-top: 20px;
+    }
+    
+    .america-button {
+        grid-area: America;
+    }
+    
+    .europe-button {
+        grid-area: Europa;
+    }
+    
+    .asia-button {
+        grid-area: Asia;
+    }
+    
+    .oceania-button {
+        grid-area: Oceania;
+    }
+    
+    .africa-button {
+        grid-area: Africa;
+    }
+}
+
+@media (min-width: 1400px) {
+    .buttons-container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 70px;
+    } 
+    
+    .button-title {
+        margin-top: 1%;
+        font-size: 5rem;
+    }
+}

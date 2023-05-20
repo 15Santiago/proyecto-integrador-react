@@ -1,0 +1,20 @@
+.header-section {
+    height: 40px;
+    text-align: center;
+    border-bottom: 3px solid var(--Azul-oscuro);
+}
+
+.header-section .title {
+    font-size: 3rem;
+    color: var(--Azul-claro);
+}
+
+@media (min-width: 740px) {
+    .header-section {
+        height: 70px;
+    }
+    
+    .header-section .title {
+        font-size: 5rem;
+    }
+}

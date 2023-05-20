@@ -1,0 +1,52 @@
+main {
+    padding: 4px;
+}
+
+.text-container {
+    width: 100%;
+    height: 60px;
+}
+
+.text-container p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.buttons-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 760px) {
+    .buttons-container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 'America Europa'
+                             'Asia Oceania'
+                             'Africa Africa';
+        row-gap: 50px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .buttons-container {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 70px;
+    } 
+    
+    .button-title {
+        margin-top: 1%;
+        font-size: 5rem;
+    }
+}
