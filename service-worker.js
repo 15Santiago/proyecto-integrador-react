@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/15Santiago/proyecto-integrador-react/precache-manifest.518c0e628529b85ee9451b3923f71d14.js"
+  "/proyecto-integrador-react/precache-manifest.221a8397c74f6e6cebdd9ab0568e52a4.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/15Santiago/proyecto-integrador-react/index.html", {
+workbox.routing.registerNavigationRoute("/proyecto-integrador-react/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

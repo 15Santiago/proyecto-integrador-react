@@ -1,13 +1,13 @@
 {
-  "main.css": "/15Santiago/proyecto-integrador-react/static/css/main.4409fee5.chunk.css",
-  "main.js": "/15Santiago/proyecto-integrador-react/static/js/main.77a70a04.chunk.js",
-  "main.js.map": "/15Santiago/proyecto-integrador-react/static/js/main.77a70a04.chunk.js.map",
-  "static/js/1.300d0603.chunk.js": "/15Santiago/proyecto-integrador-react/static/js/1.300d0603.chunk.js",
-  "static/js/1.300d0603.chunk.js.map": "/15Santiago/proyecto-integrador-react/static/js/1.300d0603.chunk.js.map",
-  "runtime~main.js": "/15Santiago/proyecto-integrador-react/static/js/runtime~main.f2b61933.js",
-  "runtime~main.js.map": "/15Santiago/proyecto-integrador-react/static/js/runtime~main.f2b61933.js.map",
-  "static/css/main.4409fee5.chunk.css.map": "/15Santiago/proyecto-integrador-react/static/css/main.4409fee5.chunk.css.map",
-  "index.html": "/15Santiago/proyecto-integrador-react/index.html",
-  "precache-manifest.518c0e628529b85ee9451b3923f71d14.js": "/15Santiago/proyecto-integrador-react/precache-manifest.518c0e628529b85ee9451b3923f71d14.js",
-  "service-worker.js": "/15Santiago/proyecto-integrador-react/service-worker.js"
+  "main.css": "/proyecto-integrador-react/static/css/main.4409fee5.chunk.css",
+  "main.js": "/proyecto-integrador-react/static/js/main.54c08f5c.chunk.js",
+  "main.js.map": "/proyecto-integrador-react/static/js/main.54c08f5c.chunk.js.map",
+  "static/js/1.300d0603.chunk.js": "/proyecto-integrador-react/static/js/1.300d0603.chunk.js",
+  "static/js/1.300d0603.chunk.js.map": "/proyecto-integrador-react/static/js/1.300d0603.chunk.js.map",
+  "runtime~main.js": "/proyecto-integrador-react/static/js/runtime~main.389ef5bd.js",
+  "runtime~main.js.map": "/proyecto-integrador-react/static/js/runtime~main.389ef5bd.js.map",
+  "static/css/main.4409fee5.chunk.css.map": "/proyecto-integrador-react/static/css/main.4409fee5.chunk.css.map",
+  "index.html": "/proyecto-integrador-react/index.html",
+  "precache-manifest.221a8397c74f6e6cebdd9ab0568e52a4.js": "/proyecto-integrador-react/precache-manifest.221a8397c74f6e6cebdd9ab0568e52a4.js",
+  "service-worker.js": "/proyecto-integrador-react/service-worker.js"
 }
