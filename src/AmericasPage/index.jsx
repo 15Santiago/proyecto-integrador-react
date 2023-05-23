@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { HeaderSection } from '../Components/HeaderSection';
 import { FooterSection } from "../Components/FooterSection";
 import { appContext } from '../Helpers/appContext';
@@ -27,14 +28,16 @@ function AmericasPage () {
 
             <main className="main-container--card">
                 {countryData.map(country => (
-                    <CardSection 
-                        key={country.key}
-                        name={country.name}
-                        flag={country.flag}
-                        capital={country.capital}
-                        area={country.area}
-                        poblation={country.population}
-                    />
+                    <Link to={`/countries/${country.name}`} key={country.key}>
+                        <CardSection
+                            key={country.key}
+                            name={country.name}
+                            flag={country.flag}
+                            capital={country.capital}
+                            area={country.area}
+                            poblation={country.population}
+                        />
+                    </Link>
                 ))}
             </main>
 

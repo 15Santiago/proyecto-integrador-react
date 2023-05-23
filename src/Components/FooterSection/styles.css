@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     border-top: 1px solid var(--Azul-oscuro);
-    margin-top: 24px;
+    margin-top: 28%;
 }
 
 .names-container {
@@ -20,7 +20,7 @@
 
 @media (min-width: 760px) {
     .footer-container {
-        margin-top: 4px;
+        margin-top: 8%;
         height: 70px;
     }
     

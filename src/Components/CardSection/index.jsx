@@ -3,7 +3,6 @@ import './styles.css';
 
 function CardSection ({ name, flag, capital, area, poblation }) {
     return (
-        
         <div className="card-container">
             <img src={flag} alt={`${name}-flag`} className="country-flag"/>
             <section className="principal-info-container">

@@ -2,8 +2,8 @@ import React from "react";
 import { HeaderSection } from "../Components/HeaderSection/index";
 import { ButtonSection } from "../Components/ButtonSection/index";
 import { useNavigate } from 'react-router-dom';
-import './styles.css';
 import { FooterSection } from "../Components/FooterSection";
+import './styles.css';
 
 function HomePage () {
     const navigate = useNavigate();
