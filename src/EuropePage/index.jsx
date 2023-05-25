@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { HeaderSection } from "../Components/HeaderSection";
 import { FooterSection } from "../Components/FooterSection";
 import { appContext } from "../Helpers/appContext";
@@ -15,6 +16,9 @@ function EuropePage () {
         population: country.population,
         flag: country.flags.svg,
         area: country.area,
+        independent: country.independent,
+        timezones: country.timezones,
+        continents: country.continents
     }));
 
     return (
@@ -27,14 +31,19 @@ function EuropePage () {
 
             <main className="main-container--card">
                 {countryData.map(country => (
-                    <CardSection 
+                    <Link 
+                        to={`/countries/${country.name}/${country.capital}/${country.population}/${country.independent}/${country.timezones}/${country.continents}`}
                         key={country.key}
-                        name={country.name}
-                        flag={country.flag}
-                        capital={country.capital}
-                        area={country.area}
-                        poblation={country.population}
-                    />
+                    >
+                        <CardSection
+                            key={country.key}
+                            name={country.name}
+                            flag={country.flag}
+                            capital={country.capital}
+                            area={country.area}
+                            poblation={country.population}
+                        />
+                    </Link>
                 ))}
             </main>
 

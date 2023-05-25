@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Routes, Route, Router} from 'react-router-dom';
+import { HashRouter, Routes, Route} from 'react-router-dom';
 import { HomePage } from './HomePage/';
 import { appContext } from './Helpers/appContext';
 import { useFetchCountries } from './Helpers/useData';
@@ -23,7 +23,7 @@ function App() {
           <Route path="/Asia" element={<AsiaPage />} />
           <Route path="/Oceania" element={<OceaniaPage />} />
           <Route path="/Africa" element={<AfricaPage />} />
-          <Route path="/countries/:countryName" element={<CountryPage />} />
+          <Route path="/countries/:countryName/:capitalName/:population/:independent/:timezones/:continents" element={<CountryPage />} />
         </Routes>
       </appContext.Provider>
     </HashRouter>

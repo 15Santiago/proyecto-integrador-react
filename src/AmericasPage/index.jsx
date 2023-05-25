@@ -16,6 +16,9 @@ function AmericasPage () {
         population: country.population,
         flag: country.flags.svg,
         area: country.area,
+        independent: country.independent,
+        timezones: country.timezones,
+        continents: country.continents
     }));
 
     return (
@@ -28,7 +31,10 @@ function AmericasPage () {
 
             <main className="main-container--card">
                 {countryData.map(country => (
-                    <Link to={`/countries/${country.name}`} key={country.key}>
+                    <Link 
+                        to={`/countries/${country.name}/${country.capital}/${country.population}/${country.independent}/${country.timezones}/${country.continents}`}
+                        key={country.key}
+                    >
                         <CardSection
                             key={country.key}
                             name={country.name}
