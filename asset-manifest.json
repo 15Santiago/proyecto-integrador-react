@@ -1,13 +1,18 @@
 {
-  "main.css": "/proyecto-integrador-react/static/css/main.73e8c1e6.chunk.css",
-  "main.js": "/proyecto-integrador-react/static/js/main.927b3a1c.chunk.js",
-  "main.js.map": "/proyecto-integrador-react/static/js/main.927b3a1c.chunk.js.map",
-  "static/js/1.af8a0f09.chunk.js": "/proyecto-integrador-react/static/js/1.af8a0f09.chunk.js",
-  "static/js/1.af8a0f09.chunk.js.map": "/proyecto-integrador-react/static/js/1.af8a0f09.chunk.js.map",
-  "runtime~main.js": "/proyecto-integrador-react/static/js/runtime~main.389ef5bd.js",
-  "runtime~main.js.map": "/proyecto-integrador-react/static/js/runtime~main.389ef5bd.js.map",
-  "static/css/main.73e8c1e6.chunk.css.map": "/proyecto-integrador-react/static/css/main.73e8c1e6.chunk.css.map",
-  "index.html": "/proyecto-integrador-react/index.html",
-  "precache-manifest.f5281b340c207582d720bdf903933c99.js": "/proyecto-integrador-react/precache-manifest.f5281b340c207582d720bdf903933c99.js",
-  "service-worker.js": "/proyecto-integrador-react/service-worker.js"
+  "files": {
+    "main.css": "/proyecto-integrador-react/static/css/main.e5e9897a.css",
+    "main.js": "/proyecto-integrador-react/static/js/main.c53533a3.js",
+    "static/media/globe-showing-europe-svgrepo-com.svg": "/proyecto-integrador-react/static/media/globe-showing-europe-svgrepo-com.5715cd34c27227de076aa140c0350b36.svg",
+    "static/media/africa-continent-svgrepo-com.svg": "/proyecto-integrador-react/static/media/africa-continent-svgrepo-com.a611d74871e55e20a447f34b2f17d3f0.svg",
+    "static/media/earth-america-o-svgrepo-com.svg": "/proyecto-integrador-react/static/media/earth-america-o-svgrepo-com.b96b63e6cc0d28caae46f66a538aa654.svg",
+    "static/media/australian-continent-svgrepo-com.svg": "/proyecto-integrador-react/static/media/australian-continent-svgrepo-com.10e16f084000a147d7b1bb8d21a85b28.svg",
+    "static/media/earth-asia-oceania-svgrepo-com.svg": "/proyecto-integrador-react/static/media/earth-asia-oceania-svgrepo-com.5cfff7bc28537aec6d406a32546e4c75.svg",
+    "index.html": "/proyecto-integrador-react/index.html",
+    "main.e5e9897a.css.map": "/proyecto-integrador-react/static/css/main.e5e9897a.css.map",
+    "main.c53533a3.js.map": "/proyecto-integrador-react/static/js/main.c53533a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5e9897a.css",
+    "static/js/main.c53533a3.js"
+  ]
 }
