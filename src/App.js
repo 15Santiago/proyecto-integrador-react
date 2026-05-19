@@ -11,7 +11,7 @@ import { AfricaPage } from './AfricaPage';
 import { CountryPage } from './CountryPage';
 
 function App() {
-  const [countries, setCountries] = useFetchCountries("https://restcountries.com/v3.1/all");
+  const [countries, setCountries] = useFetchCountries("https://restcountries.com/v3.1/all?fields=name,capital,population,independent,timezones,continents,flags,area,region,translations");
   return (
     
     <HashRouter>
